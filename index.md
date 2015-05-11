@@ -14,13 +14,9 @@ github      :
 knit        : slidify::knit2slides
 ---
 
-## Read-And-Delete
+## Esquema de la presentación
 
-1. Edit YAML front matter
-2. Write using R Markdown
-3. Use an empty line followed by three dashes to separate slides!
 
---- .class #id 
 
 ## Slide 1
 
