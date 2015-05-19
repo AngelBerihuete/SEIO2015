@@ -4,7 +4,7 @@
   <title>Estimación de parámetros físicos de estrellas de baja masa</title>
   <meta charset="utf-8">
   <meta name="description" content="Estimación de parámetros físicos de estrellas de baja masa">
-  <meta name="author" content="A. Berihuete, , L. M. Sarro Baro, A. Suárez Llorens, D. Barrado Navascués, C. Carrión, M. Sánchez Sánchez">
+  <meta name="author" content="A. Berihuete, L. M. Sarro, A. Suárez, D. Barrado, C. Carrión, M. Sánchez">
   <meta name="generator" content="slidify" />
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta http-equiv="X-UA-Compatible" content="chrome=1">
@@ -34,7 +34,7 @@
   <hgroup class="auto-fadein">
     <h1>Estimación de parámetros físicos de estrellas de baja masa</h1>
     <h2>en el marco de la misión espacial GAIA</h2>
-    <p>A. Berihuete, , L. M. Sarro Baro, A. Suárez Llorens, D. Barrado Navascués, C. Carrión, M. Sánchez Sánchez<br/>SEIO2015</p>
+    <p>A. Berihuete, L. M. Sarro, A. Suárez, D. Barrado, C. Carrión, M. Sánchez<br/>SEIO2015</p>
   </hgroup>
     <a href="https://github.com/AngelBerihuete/SEIO2015/zipball/gh-pages" class="example">
      Download
@@ -49,15 +49,11 @@
     <h2>Esquema de la presentación</h2>
   </hgroup>
   <article data-timings="">
-    <h2>Slide 1</h2>
-
-<p>Animated list</p>
-
-<ol class = "build incremental">
-<li>Contexto: GAIA contendrá un vasto número de objetos, incluyendo
-estrellas enanas ultrafrías (temperatura por debajo de 2500 K)</li>
-<li>Objetivo: Abordar la precisión de las estimaciones de la temperatura
-y gravedad obtenidas a partir de modelos y observaciones actuales.</li>
+    <ol>
+<li>Introducción: ¿qué es la misión espacial GAIA?</li>
+<li>Los datos: ¿qué son las estrellas de baja masa ?</li>
+<li>Estimación de los parámetros temperatura y gravedad.</li>
+<li>Principales resultados y trabajo futuro.</li>
 </ol>
 
   </article>
@@ -66,18 +62,333 @@ y gravedad obtenidas a partir de modelos y observaciones actuales.</li>
 
 <slide class="" id="slide-2" style="background:;">
   <hgroup>
-    <h2>Slide 2</h2>
+    <h2>La misión espacial GAIA</h2>
   </hgroup>
   <article data-timings="">
-    <p>Un texto cualquiera</p>
+    <p>El reto: realizar un censo de mil millones de estrellas.</p>
+
+<ul class = "build incremental">
+<li><p>Reto tecnológico:</p>
+
+<ol>
+<li>Gaia trazará un mapa de las estrellas desde el punto de 
+Lagrange L2, a una distancia de unos 1.5 millones de kilómetros de la
+Tierra.</li>
+<li>Mil millones de píxeles en las cámaras CCD.</li>
+<li>Transmitirá 5 años 50 Gb diarios. Al final de la misión,
+el archivo de datos excederá 1 Petabyte, que es 1 millón de Gbytes o el 
+equivalente a unos 200.000 DVD.</li>
+</ol></li>
+<li><p>Reto científico: </p>
+
+<ol>
+<li>Se registrarán un total de 70 mil millones de observaciones, cada 
+una de ellas compuesta a su vez de varios conjuntos de medidas.</li>
+<li>La posición de una estrella Gaia lo hará con una precisión
+extraordinaria, más allá de los sueños de cualquier astrónomo del 
+pasado.</li>
+<li>La astroestadística, la aplicación de técnicas y modelos 
+estadísticos a la astronomía, una disciplina todavía joven, se ha
+convertido en un eslabón fundamental para estudiar el &#39;tsunami&#39; de datos
+de asteroides, estrellas, galaxias y cuásares que conviven en nuestro
+espacio exterior.</li>
+</ol></li>
+</ul>
 
   </article>
   <!-- Presenter Notes -->
 </slide>
 
 <slide class="" id="slide-3" style="background:;">
+  <hgroup>
+    <h2>La misión espacial GAIA</h2>
+  </hgroup>
+  <article data-timings="">
+    <p>Consorcio para el procesado de datos (DPAC)</p>
+
+<div>
+    <img height='484' src='DpacMembershipMapAndDPCs-simple.png' />
+</div>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+<slide class="" id="slide-4" style="background:;">
+  <hgroup>
+    <h2>La misión espacial GAIA</h2>
+  </hgroup>
+  <article data-timings="">
+    <p>Consorcio para el procesado de datos (DPAC)</p>
+
+<div>
+    <img height='484' src='dpac-organigram_November 2013.png' />
+</div>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+<slide class="" id="slide-5" style="background:;">
+  <hgroup>
+    <h2>La misión espacial GAIA</h2>
+  </hgroup>
+  <article data-timings="">
+    <div>
+    <img height='128' src='cu8.png' />
+</div>
+
+<ul class = "build incremental">
+<li><p>CU8 está encargada de la determinación de parámetros astrofísicos.
+Dichos parámetros se determinan a partir de varios módulos en un 
+pipeline llamado <em>Apsis</em>. </p></li>
+<li><p>Apsis incluye una clasificación inicial de los objetos en grandes
+categorías, e integra módulos para estimar parámetros astrofísicos
+dentro de cada una de esas categorías.</p></li>
+</ul>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+<slide class="" id="slide-6" style="background:;">
+  <hgroup>
+    <h2>El módulo UCD dentro de Apsis: estrellas ultra frías</h2>
+  </hgroup>
   <article data-timings="">
     
+<div style='float:left;width:48%;' class='centered'>
+  <h3>Estrellas de baja masa</h3>
+
+<div>
+    <img height='380' src='BrownDwarfs.png' />
+</div>
+
+</div>
+<div style='float:right;width:48%;'>
+  <ol class = "build incremental">
+<li>Contexto: GAIA contendrá un vasto número de objetos, incluyendo
+estrellas enanas ultrafrías (temperatura por debajo de 2500 K)</li>
+<li>Objetivo: Abordar la precisión de las estimaciones de la temperatura
+y gravedad obtenidas a partir de modelos y observaciones actuales.</li>
+</ol>
+
+</div>
+<div>
+  
+</div>
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+<slide class="" id="slide-7" style="background:;">
+  <hgroup>
+    <h2>El módulo UCD dentro de Apsis: estrellas ultra frías</h2>
+  </hgroup>
+  <article data-timings="">
+    
+<div style='float:left;width:48%;' class='centered'>
+  <h3>Estrellas de baja masa</h3>
+
+<div>
+    <img height='380' src='BrownDwarfs.png' />
+</div>
+
+</div>
+<div style='float:right;width:48%;'>
+  <h3>Tracks evolutivos</h3>
+
+<div>
+    <img height='412' src='EvolutionaryTracks.png' />
+</div>
+
+</div>
+<div>
+  
+</div>
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+<slide class="" id="slide-8" style="background:;">
+  <hgroup>
+    <h2>Datos para el módulo UCD. ¿Qué vemos realmente?</h2>
+  </hgroup>
+  <article data-timings="">
+    <p>Espectros normalizados a partir de los modelos BT-Settl.</p>
+
+<p><img style="float: center" src="NormalisedSampleSpectra.png"></p>
+
+<blockquote>
+<p>Librerías de modelos estelares y los espectros sintéticos asociados
+ofrecen un conjunto homogéneo que cubren uniformemente el espacio de
+parámetros. (eno contraste los catálogos)
+*reproducibilidad</p>
+
+<ul>
+<li>consistencia</li>
+<li>homogeneidad</li>
+<li>uniformidad</li>
+</ul>
+
+<p>Estas librerías parametrizan los modelos con magnitudes físicas
+(temperatura efectiva, gravedades, y metalicidades)</p>
+
+<p>Son imperfectas, ya que no pueden reproducir exactamente todas
+las características de un espectro real UCD.</p>
+
+<p>Los tipos espectrales pueden inferirse sin el uso de modelos
+sintéticos, pero el camino de espectro a los parámetros físicos 
+necesitan de éstas para su correcta interpretación.</p>
+
+<p>Dado el espectro de baja resolución de GAIA, la mayoría de las
+características utilizadas para decidir el tipo espectral 
+permanecen no resuletas o innobservadas. Hay que tener cuidado con las 
+interpretaciones.</p>
+</blockquote>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+<slide class="" id="slide-9" style="background:;">
+  <hgroup>
+    <h2>La red neuronal</h2>
+  </hgroup>
+  <article data-timings="">
+    <p>Los modelos sintéticos definen la relación entre los espcetros observados
+por GAIA y los parámetros que queremos estimar $T_{eff}$ y $\log (x)$, 
+temperatura y gravedad. Esta relación es capturada por un modelo de regresión mediante una red neuronal artificial. Perceptron multicapa, </p>
+
+<p>El conjunto de entrenamiento se construye utilizando las librerías
+sintéticas ($T_{eff} &lt; 4000K$) y transformando el espectro sintético
+mediante GOG  </p>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+<slide class="" id="slide-10" style="background:;">
+  <hgroup>
+    <h2>Resultados utilizando KNN</h2>
+  </hgroup>
+  <article data-timings="">
+    <p>Obtiene los parámetros como la media ponderada de los elementos
+en el cojunto de entrenamiento que están más cercas del espectro 
+de entrada para una métrica dada. Dicha métrica es la distancia
+euclídea y los pesos son la inversa de dicha distancia.</p>
+
+<blockquote>
+<p>Desventaja, todo el cojunto de datos debe se accesible en todo 
+momento. Y la técnica está afectada de la maldición de la dimensionalidad,
+es decir, cuando crezca el espacio parámetrico el número de observaciones
+debe aumentar exponencialmente para mantener una densidad adecuadad de 
+vecinos próximos.</p>
+</blockquote>
+
+<p><img height='412' style="float: center" src="knnPredictions.png"></p>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+<slide class="" id="slide-11" style="background:;">
+  <hgroup>
+    <h2>Resultados utilizando procesos gausianos</h2>
+  </hgroup>
+  <article data-timings="">
+    <p>Se define como una distribución de probabilida sobre las funciones
+de forma que la probabilidad conjunta de las variables aleatorias
+definidas por sus evaluaciones en cierto conjunto de vectores (
+el training set) es Gaussiano.</p>
+
+<p><img height='412' style="float: center" src="GPPredictions.png"></p>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+<slide class="" id="slide-12" style="background:;">
+  <hgroup>
+    <h2>Inferencia Bayesiana.</h2>
+  </hgroup>
+  <article data-timings="">
+    <p>No da una estimación de los parámetros, sino una distribución 
+de probabilidad para los mismos:</p>
+
+<p>$$p (\theta | s) = \frac{p(s|\theta)
+p(\theta)}{\int p(s|\theta) p(\theta) \, d \theta} $$</p>
+
+<p>donde $\theta = (T_{eff}, \log (g))$. En realidad la verosimilitud es </p>
+
+<p>$$s|\theta = s|(s<em>{model}, \Sigma) \sim \mathcal{N} (s</em>{model},\Sigma) $$</p>
+
+<p>con $s_{model}$ el espectro obtenido mediante la rna para $\theta$.</p>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+<slide class="" id="slide-13" style="background:;">
+  <hgroup>
+    <h2>Inferencia Bayesiana. Nested Sampling</h2>
+  </hgroup>
+  <article data-timings="">
+    <p>Para caracterizar a $p(\theta|s)$ utilizamos una técnica MCMC llamada
+<em>Nested Sampling</em>. Brevemente, el algoritmo explora la relación entre 
+la verosimilitud y el <em>volumen de distribución previa</em> definido por</p>
+
+<p>$$X (\lambda) = \int_{p(s|\theta) &gt; \lambda} p(\theta) \, d \theta$$</p>
+
+<p>el volumen de distribución previa contenido en la región paramétrica
+contenida dentro del iso-contorno $p(s|\theta) &gt; \lambda$</p>
+
+<p><img height='256' style="float: center" src="nestedSampling.png"></p>
+
+<p>$$p_i = \frac{p(s | \theta_i) \cdot w_i}{\hat{m(s)}},$$</p>
+
+<p>con $w<em>i = 0.5(X</em>{i-1}-X<em>i)$ y
+$\hat{T}</em>{eff}= \sum<em>{i = 1}<sup>n</sup> T</em>{eff, i} \cdot p_i$</p>
+
+<p>Imagen de John Skilling, copiada de la charla </p>
+
+<p><a href="http://www.inference.phy.cam.ac.uk/bayesys/Valencia.pdf">http://www.inference.phy.cam.ac.uk/bayesys/Valencia.pdf</a></p>
+
+<h2></h2>
+
+<h2>Inferencia Bayesiana. Resultados</h2>
+
+<p><img height='412' style="float: center" src="BayesPredictions.png"></p>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+<slide class="" id="slide-14" style="background:;">
+  <hgroup>
+    <h2>Trabajo actual y futuro de la estimación</h2>
+  </hgroup>
+  <article data-timings="">
+    <blockquote>
+<p>Ampliar las distribuciones previas a copulas, simulando la relación
+entre la temperatura y gravedad. Primera aproximación en TFG de Marta Sánchez, obteniendo mejores resultados en la estimación.</p>
+
+<p>Paralelizar la verosimilitud. Primeras pruebas con arquitectura Spark.</p>
+</blockquote>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+<slide class="" id="slide-15" style="background:;">
+  <hgroup>
+    <h2>Gracias</h2>
+  </hgroup>
+  <article data-timings="">
+    <p>No oliden descargarse al app!</p>
+
+<p><img height='412' style="float: center" src="GaiaComposed.png"></p>
+
   </article>
   <!-- Presenter Notes -->
 </slide>
@@ -94,14 +405,86 @@ y gravedad obtenidas a partir de modelos y observaciones actuales.</li>
     </li>
     <li>
       <a href="#" target="_self" rel='tooltip' 
-        data-slide=2 title='Slide 2'>
+        data-slide=2 title='La misión espacial GAIA'>
          2
       </a>
     </li>
     <li>
       <a href="#" target="_self" rel='tooltip' 
-        data-slide=3 title=''>
+        data-slide=3 title='La misión espacial GAIA'>
          3
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=4 title='La misión espacial GAIA'>
+         4
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=5 title='La misión espacial GAIA'>
+         5
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=6 title='El módulo UCD dentro de Apsis: estrellas ultra frías'>
+         6
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=7 title='El módulo UCD dentro de Apsis: estrellas ultra frías'>
+         7
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=8 title='Datos para el módulo UCD. ¿Qué vemos realmente?'>
+         8
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=9 title='La red neuronal'>
+         9
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=10 title='Resultados utilizando KNN'>
+         10
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=11 title='Resultados utilizando procesos gausianos'>
+         11
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=12 title='Inferencia Bayesiana.'>
+         12
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=13 title='Inferencia Bayesiana. Nested Sampling'>
+         13
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=14 title='Trabajo actual y futuro de la estimación'>
+         14
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=15 title='Gracias'>
+         15
       </a>
     </li>
   </ul>
@@ -114,7 +497,21 @@ y gravedad obtenidas a partir de modelos y observaciones actuales.</li>
 </body>
   <!-- Load Javascripts for Widgets -->
   
-  <!-- LOAD HIGHLIGHTER JS FILES -->
+  <!-- MathJax: Fall back to local if CDN offline but local image fonts are not supported (saves >100MB) -->
+  <script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+      tex2jax: {
+        inlineMath: [['$','$'], ['\\(','\\)']],
+        processEscapes: true
+      }
+    });
+  </script>
+  <script type="text/javascript" src="http://cdn.mathjax.org/mathjax/2.0-latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+  <!-- <script src="https://c328740.ssl.cf1.rackcdn.com/mathjax/2.0-latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+  </script> -->
+  <script>window.MathJax || document.write('<script type="text/x-mathjax-config">MathJax.Hub.Config({"HTML-CSS":{imageFont:null}});<\/script><script src="libraries/widgets/mathjax/MathJax.js?config=TeX-AMS-MML_HTMLorMML"><\/script>')
+</script>
+<!-- LOAD HIGHLIGHTER JS FILES -->
   <script src="libraries/highlighters/highlight.js/highlight.pack.js"></script>
   <script>hljs.initHighlightingOnLoad();</script>
   <!-- DONE LOADING HIGHLIGHTER JS FILES -->

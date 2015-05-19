@@ -1,0 +1,90 @@
+
+#<iframe src="http://www.esa.int/spaceinvideos/content/view/embedjw/424168" width="640" height="360" frameborder="0"></iframe>
+#<iframe width="212" height="119" src="https://www.youtube.com/embed/WtWRVqYcDaU?rel=0" frameborder
+#="0" allowfullscreen></iframe>
+
+
+
+1. Número de investigadores en el proyecto.
+
+2. El DPAC está encargado de
+diseñar, desarrollar ... se compone de *unidades de coordinación* CU
+con trabajos específicos en cada una de ellas.
+
+
+aproximadamente el 1% de todas las estrellas de nuestra galaxia. 
+Durante los cinco años de vida del satélite, Gaia observará cada 
+estrella alrededor de 70 veces, y cada vez registrará su brillo, su 
+color y, lo más importante, su posición.
+
+El cálculo preciso de la 
+posición de un objeto celeste es conocido como astrometría, y 
+desde que los humanos empezaron a estudiar el cielo, los 
+astrónomos han dedicado mucho de su tiempo a este arte. Sin 
+embargo, Gaia lo hará con una precisión extraordinaria, más allá 
+de los sueños de cualquier astrónomo del pasado.
+
+
+En agosto de 1989, más de 2.000 años después 
+de Hiparco, la ESA lanzó al espacio Hipparcos 
+(HIgh Precision PARAllax COllecting Satellite), el 
+primer satélite dedicado a la astrometría. De los 
+datos tomados entre 1989 y 1993 se publicó el 
+Catálogo final de Hipparcos en 1997. Contiene 
+las posiciones, distancias y movimientos, 
+200 veces más precisas que cualquier medida 
+anterior, para casi 120.000 estrellas. 
+
+Gaia trazará un mapa de las estrellas desde 
+una posición aventajada a una distancia de 
+unos 1,5 millones de kilómetros de la Tierra, 
+orbitando alrededor de una posición especial 
+conocida como L2. Es uno de los cinco «puntos 
+de Lagrange», donde las fuerzas 
+gravitacionales del Sol, la Tierra y la Luna se 
+encuentran equilibradas. Con un uso mínimo de 
+los propulsores, una nave espacial ubicada en 
+este punto puede mantener su posición 
+respecto a la Tierra a la vez que ambos orbitan 
+alrededor del Sol. 
+
+Para alcanzar sus objetivos científicos, Gaia tendrá que 
+detectar, seleccionar y medir cientos de estrellas por segundo 
+casi sin parar durante cinco años, produciendo un volumen 
+enorme de datos. Cada día, unos 50 Gbytes de datos se 
+generarán y enviarán a la Tierra
+
+El Consorcio para el Procesado y Análisis de los Datos (DPAC, Data 
+Processing and Analysis Consortium) procesará todos los datos 
+recibidos del satélite, transformándolos en medidas de utilidad 
+científica. Dada la naturaleza compleja e interconectada de los 
+datos de Gaia, estos cálculos se repartirán entre seis centros de 
+cálculo de toda Europa. Estos centros basarán su trabajo en 
+programas y algoritmos recibidos desde nueve unidades de 
+coordinación científica organizadas por temas. Más de 
+450 personas por toda Europa están ya contribuyendo al 
+desarrollo de este inmenso esfuerzo de procesado de datos de 
+Gaia como parte del consorcio DPAC. 
+
+Los resultados finales de Gaia serán públicos y accesibles para 
+todo el mundo. Aunque eso no ocurrirá antes del 2020, las alertas 
+científicas serán publicadas con antelación y dos años después del 
+lanzamiento se harán públicos catálogos intermedios
+
+
+https://itunes.apple.com/us/app/gaia-mission/id735128015
+
+Pero el reto no está solo en observarlas, sino en extraer conocimiento del 'petabyte' de información, un millón de 'gigabytes', que este satélite con nombre de diosa griega va a suministrar. ¿Cómo se gestiona el 'big data' del Universo? La astroestadística, la aplicación de técnicas y  modelos estadísticos a la astronomía, una disciplina todavía joven, se ha convertido en un eslabón fundamental para estudiar el 'tsunami' de datos de asteroides, estrellas, galaxias y cuásares que conviven en nuestro espacio exterior.
+
+
+Es decir, que registrará un total de 70 mil millones de observaciones, cada una de ellas compuesta a su vez de varios conjuntos de medidas.
+
+a astroestadística permitirá crear una 'timeline' completa de su evolución gracias a los datos de Gaia. Un paso de los datos al conocimiento, según Sarro
+
+
+# La misión Gaia de la ESA creará un mapa detallado de este 
+# laberinto y encontrará claves acerca del origen, estructura y 
+# evolución de nuestra galaxia, la Vía Láctea.
+
+288 K temperatura media de la tierra
+
