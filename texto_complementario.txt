@@ -46,7 +46,7 @@ encuentran equilibradas. Con un uso mínimo de
 los propulsores, una nave espacial ubicada en 
 este punto puede mantener su posición 
 respecto a la Tierra a la vez que ambos orbitan 
-alrededor del Sol. 
+alrededor del Sol.
 
 Para alcanzar sus objetivos científicos, Gaia tendrá que 
 detectar, seleccionar y medir cientos de estrellas por segundo 
@@ -76,6 +76,17 @@ https://itunes.apple.com/us/app/gaia-mission/id735128015
 
 Pero el reto no está solo en observarlas, sino en extraer conocimiento del 'petabyte' de información, un millón de 'gigabytes', que este satélite con nombre de diosa griega va a suministrar. ¿Cómo se gestiona el 'big data' del Universo? La astroestadística, la aplicación de técnicas y  modelos estadísticos a la astronomía, una disciplina todavía joven, se ha convertido en un eslabón fundamental para estudiar el 'tsunami' de datos de asteroides, estrellas, galaxias y cuásares que conviven en nuestro espacio exterior.
 
+Gaia's camera contains three science instruments: the astrometric instrument, the blue and red photometer, and the radial velocity spectrometer. They are all based on digital detectors – charged coupled devices (CCDs) – that record light from astronomical sources. With a total of 106 CCDs, each consisting of more than eight million pixels, Gaia's camera boasts almost one billion pixels covering an area of 0.38 m2 – the largest focal plane ever flown in space.
+
+Petabyte: que es 1 millón de Gbytes o el 
+  equivalente a unos 200.000 DVD.
+
+  La astroestadística: la aplicación de técnicas y modelos 
+  estadísticos a la astronomía, una disciplina todavía joven, se ha
+  convertido en un eslabón fundamental para estudiar el 'tsunami' de datos
+  de asteroides, estrellas, galaxias y cuásares que conviven en nuestro
+  espacio exterior.
+
 
 Es decir, que registrará un total de 70 mil millones de observaciones, cada una de ellas compuesta a su vez de varios conjuntos de medidas.
 
@@ -88,3 +99,11 @@ a astroestadística permitirá crear una 'timeline' completa de su evolución gr
 
 288 K temperatura media de la tierra
 
+ Elegimos modelos espectrales
+
+ (en contraste los catálogos)
+
+  * reproducibilidad
+  * consistencia
+  * homogeneidad
+  * uniformidad

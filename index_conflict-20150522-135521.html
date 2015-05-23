@@ -1,0 +1,398 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Estimación de parámetros físicos en estrellas de baja masa</title>
+  <meta name="description" content="">
+  <meta name="author" content="A. Berihuete, L. M. Sarro, A. Suárez, D. Barrado, C. Carrión, M. Sánchez">
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+  <link rel="stylesheet" href="./libraries/frameworks/revealjs/css/reveal.min.css">
+  <link rel="stylesheet" href="./libraries/frameworks/revealjs/css/theme/black.css" id="theme">
+  <link rel="stylesheet" href="./libraries/highlighters/highlight.js/css/github.css" id="theme">
+  <!--[if lt IE 9]>
+  <script src="lib/js/html5shiv.js"></script>
+  <![endif]-->  <link rel="stylesheet" href = "./libraries/widgets/bootstrap/css/bootstrap.css">
+<link rel="stylesheet" href = "./libraries/widgets/quiz/css/demo.css">
+<link rel="stylesheet" href = "assets/css/ribbons.css">
+
+</head>
+<body>
+  <div class="reveal">
+    <div class="slides">
+      <section class='' data-state='' id='slide-1'>
+  <h2>Esquema de la presentación</h2>
+  <ol>
+<li>Contexto: ¿qué es la misión espacial GAIA?</li>
+<li>Los datos: ¿qué son las estrellas de baja masa?</li>
+<li>Estimación parámetrica. Principales  resultados.</li>
+<li>Trabajo actual y futuro.</li>
+</ol>
+
+</section>
+<section class='' data-state='' id='slide-2'>
+  <h2>La misión espacial GAIA</h2>
+  <div class="fragment grow">
+El reto: censo de mil millones de estrellas
+</div>
+
+<p><br>
+.fragment Reto tecnológico
+<br></p>
+
+<p class='fragment'>Gaia trazará un mapa de las estrellas desde el punto de 
+Lagrange L2, a una distancia de unos 1.5 millones de kilómetros de la
+  Tierra.</p>
+
+<p class='fragment'>106 CCDs con 8 millones de pixels cada uno.</p>
+
+<p class='fragment'>Transmitirá, durante 5 años, 50 Gb diarios. Al final de la misión, el archivo de datos excederá el Petabyte.</p>
+
+</section>
+<section class='' data-state='' id='slide-3'>
+  
+  <ul class = "build incremental">
+<li>Reto científico: 
+
+<ol>
+<li>Se registrarán un total de 70 mil millones de observaciones, cada 
+una de ellas compuesta a su vez de varios conjuntos de medidas.</li>
+<li>La astrometría será la mejor conseguida hasta ahora.</li>
+<li>La astroestadística, se ha convertido en eslabón fundamental para el 
+estudio de esta ingente cantidad de datos.</li>
+</ol></li>
+</ul>
+
+<hr>
+
+<h2>La misión espacial GAIA</h2>
+
+<p>Consorcio para el procesado de datos (DPAC)</p>
+
+<div>
+    <img height='484' src='DpacMembershipMapAndDPCs-simple.png' />
+</div>
+
+</section>
+<section class='' data-state='' id='slide-4'>
+  <h2>La misión espacial GAIA</h2>
+  <p>Consorcio para el procesado de datos (DPAC)</p>
+
+<div>
+    <img height='484' src='dpac-organigram_November 2013.png' />
+</div>
+
+</section>
+<section class='' data-state='' id='slide-5'>
+  <h2>La misión espacial GAIA</h2>
+  <div>
+    <img height='128' src='cu8.png' />
+</div>
+
+<ul class = "build incremental">
+<li>CU8 está encargada de la determinación de parámetros astrofísicos.
+Dichos parámetros se determinan a partir de varios módulos en un 
+pipeline llamado <em>Apsis</em>. </li>
+</ul>
+
+<p>DOI: 10.1051/0004-6361/201322344</p>
+
+<ul class = "build incremental">
+<li>Apsis incluye una clasificación inicial de los objetos en grandes
+categorías, e integra módulos para estimar parámetros astrofísicos
+dentro de cada una de esas categorías.</li>
+</ul>
+
+</section>
+<section class='' data-state='' id='slide-6'>
+  <h2>El módulo UCD dentro de Apsis: estrellas ultra frías</h2>
+  
+<div style='float:left;width:48%;' class='centered'>
+  <h3>Estrellas de baja masa</h3>
+
+<div>
+    <img height='380' src='BrownDwarfs.png' />
+</div>
+
+</div>
+<div style='float:right;width:48%;'>
+  <p>DOI: 10.1051/0004-6361/201219867</p>
+
+<ol class = "build incremental">
+<li>Contexto: GAIA contendrá un vasto número de objetos, incluyendo
+estrellas enanas ultrafrías (temperatura por debajo de 2500 K)</li>
+<li>Objetivo: Abordar la precisión de las estimaciones de la temperatura
+y gravedad obtenidas a partir de modelos y observaciones actuales.</li>
+</ol>
+
+</div>
+<div>
+  
+</div>
+</section>
+<section class='' data-state='' id='slide-7'>
+  <h2>El módulo UCD dentro de Apsis: estrellas ultra frías</h2>
+  
+<div style='float:left;width:48%;' class='centered'>
+  <h3>Estrellas de baja masa</h3>
+
+<div>
+    <img height='380' src='BrownDwarfs.png' />
+</div>
+
+</div>
+<div style='float:right;width:48%;'>
+  <h3>Tracks evolutivos</h3>
+
+<div>
+    <img height='412' src='EvolutionaryTracks.png' />
+</div>
+
+</div>
+<div>
+  
+</div>
+</section>
+<section class='' data-state='' id='slide-8'>
+  <h2>Datos para el módulo UCD. ¿Qué vemos realmente?</h2>
+  <p><img style="float: center" src="NormalisedSampleSpectra.png"></p>
+
+<h1>Espectros normalizados a partir de la biblioteca de modelos BT-Settl.</h1>
+
+<blockquote>
+<p>Bibliotecas de modelos estelares y los espectros sintéticos asociados
+ofrecen un conjunto homogéneo que cubren uniformemente el espacio de
+parámetros. (en contraste los catálogos)</p>
+</blockquote>
+
+<ul>
+<li>reproducibilidad</li>
+<li>consistencia</li>
+<li>homogeneidad</li>
+<li>uniformidad</li>
+</ul>
+
+</section>
+<section class='' data-state='' id='slide-9'>
+  <h2>Datos para el módulo UCD. ¿Qué vemos realmente?</h2>
+  <p><img style="float: center" src="NormalisedSampleSpectra.png"></p>
+
+<h1>Espectros normalizados a partir de la biblioteca de modelos BT-Settl.</h1>
+
+<blockquote>
+<p>Estas bibliotecas parametrizan los modelos con magnitudes físicas
+(temperatura efectiva, gravedades, y metalicidades)</p>
+
+<p>Son imperfectas, ya que no pueden reproducir exactamente todas
+las características de un espectro real UCD.</p>
+</blockquote>
+
+</section>
+<section class='' data-state='' id='slide-10'>
+  <h2>Datos para el módulo UCD. ¿Qué vemos realmente?</h2>
+  <p><img style="float: center" src="NormalisedSampleSpectra.png"></p>
+
+<h1>Espectros normalizados a partir de la biblioteca de modelos BT-Settl.</h1>
+
+<blockquote>
+<p>Los tipos espectrales pueden inferirse sin el uso de modelos
+sintéticos, pero el camino de espectro a los parámetros físicos 
+necesitan de éstas para su correcta interpretación.</p>
+
+<p>Dado el espectro de baja resolución de GAIA, la mayoría de las
+características utilizadas para decidir el tipo espectral 
+permanecen no resueltas o innobservadas. Hay que tener cuidado con las 
+interpretaciones.</p>
+</blockquote>
+
+</section>
+<section class='' data-state='' id='slide-11'>
+  <h2>Datos para el módulo UCD. ¿Qué vemos realmente?</h2>
+  <p><img style="float: center" src="NormalisedSampleSpectra.png"></p>
+
+<p>Los modelos sintéticos definen la relación entre los espcetros observados
+por GAIA y los parámetros que queremos estimar \(T_{eff}\) y \(\log (x)\), 
+temperatura y gravedad. Esta relación es capturada por un modelo de regresión mediante una red neuronal artificial. Perceptron multicapa, </p>
+
+<p>El conjunto de entrenamiento se construye utilizando las bibliotecas
+sintéticas (\(T_{eff} < 4000K\)) y transformando el espectro sintético
+mediante el Gaia Object Generator (GOG).</p>
+
+<p>En resumen: </p>
+
+<ul>
+<li>Bibliotecas sintéticas de espectros: BT-Settl, COND-DUSTY.</li>
+<li>Bibliotecas sintéticas de espectros vistas por GAIA.</li>
+<li>Observaciones: BT-Settl, COND-DUSTY y espectros obtenidos en tierra.</li>
+</ul>
+
+</section>
+<section class='' data-state='' id='slide-12'>
+  <h2>Estimación paramétrica</h2>
+  <p>Recordemos:</p>
+
+<ul>
+<li>Objetivo: Abordar la precisión de las estimaciones de la temperatura
+y gravedad obtenidas a partir de modelos y observaciones actuales.</li>
+</ul>
+
+<p><img src="assets/fig/unnamed-chunk-1-1.png" title="plot of chunk unnamed-chunk-1" alt="plot of chunk unnamed-chunk-1" style="display: block; margin: auto;" /></p>
+
+</section>
+<section class='' data-state='' id='slide-13'>
+  <h2>Estimación paramétrica. Inferencia Bayesiana.</h2>
+  <ul>
+<li>Ventajas: No solo da una estimación de los parámetros, sino una 
+distribución de probabilidad para los mismos.</li>
+<li>Desventajas: Complejidad del modelo, consumo computacional elevado.</li>
+</ul>
+
+<p>\[p (\theta | s) = \frac{p(s|\theta)
+p(\theta)}{\int p(s|\theta) p(\theta) \, d \theta}\]</p>
+
+<p>donde \(\theta = (T_{eff}, \log (g))\). En realidad la verosimilitud es </p>
+
+<p>\[s|\theta = s|(s_{model}, \Sigma) \sim \mathcal{N} (s_{model},\Sigma)\]</p>
+
+<p>con \(s_{model}\) el espectro obtenido mediante la rna para \(\theta\).</p>
+
+</section>
+<section class='' data-state='' id='slide-14'>
+  <h2>Estimación paramétrica. Inferencia Bayesiana.</h2>
+  <p>Para caracterizar a \(p(\theta|s)\) utilizamos una técnica MCMC llamada
+<em>Nested Sampling</em>. Brevemente, el algoritmo explora la relación entre 
+la verosimilitud y el <em>volumen de distribución previa</em> definido por</p>
+
+<p>\[X (\lambda) = \int_{p(s|\theta) > \lambda} p(\theta) \, d \theta\]</p>
+
+<p>el volumen de distribución previa contenido en la región paramétrica
+contenida dentro del iso-contorno \(p(s|\theta) > \lambda\)</p>
+
+<p><img height='256' style="float: center" src="nestedSampling.png"></p>
+
+<p>\[p_i = \frac{p(s | \theta_i) \cdot w_i}{\hat{m(s)}},\]</p>
+
+<p>con \(w_i = 0.5(X_{i-1}-X_i)\) y
+\(\hat{T}_{eff}= \sum_{i = 1}^n T_{eff, i} \cdot p_i\)</p>
+
+<p>Imagen de John Skilling, copiada de la charla </p>
+
+<p><a href="http://www.inference.phy.cam.ac.uk/bayesys/Valencia.pdf">http://www.inference.phy.cam.ac.uk/bayesys/Valencia.pdf</a></p>
+
+<h2></h2>
+
+<h2>Estimación paramétrica. Inferencia Bayesiana.</h2>
+
+<p><img height='412' style="float: center" src="BayesPredictions.png"></p>
+
+</section>
+<section class='' data-state='' id='slide-15'>
+  <h2>Trabajo actual y futuro de la estimación</h2>
+  <blockquote>
+<p>Ampliar las distribuciones previas a copulas, simulando la relación
+entre la temperatura y gravedad. Primera aproximación en TFG de Marta Sánchez, obteniendo mejores resultado (menor 
+error de estimación).</p>
+</blockquote>
+
+<p>INCLUIR GRÁFICAS DE MARTA</p>
+
+<blockquote>
+<p>Jerarquizar el modelo</p>
+
+<p>Paralelizar la verosimilitud. Programación en Python y/o R,
+primeras pruebas con arquitectura Spark.</p>
+</blockquote>
+
+<p>HABLAR DE PROGRAMACION EN CU9</p>
+
+</section>
+<section class='' data-state='' id='slide-16'>
+  <h2>Gracias</h2>
+  <p>No oliden descargarse al app!</p>
+
+<p><img height='412' style="float: center" src="GaiaComposed.png"></p>
+
+</section>
+<section class='' data-state='' id='slide-17'>
+  <h2>Extra. Resultados utilizando KNN</h2>
+  <p>Obtiene los parámetros como la media ponderada de los elementos
+en el cojunto de entrenamiento que están más cercas del espectro 
+de entrada para una métrica dada. Dicha métrica es la distancia
+euclídea y los pesos son la inversa de dicha distancia.</p>
+
+<blockquote>
+<p>Desventaja, todo el cojunto de datos debe se accesible en todo 
+momento. Y la técnica está afectada de la maldición de la dimensionalidad,
+es decir, cuando crezca el espacio parámetrico el número de observaciones
+debe aumentar exponencialmente para mantener una densidad adecuadad de 
+vecinos próximos.</p>
+</blockquote>
+
+<p><img height='412' style="float: center" src="knnPredictions.png"></p>
+
+</section>
+<section class='' data-state='' id='slide-18'>
+  <h2>Extra. Resultados utilizando procesos gausianos</h2>
+  <p>Se define como una distribución de probabilida sobre las funciones
+de forma que la probabilidad conjunta de las variables aleatorias
+definidas por sus evaluaciones en cierto conjunto de vectores (
+el training set) es Gaussiano.</p>
+
+<p><img height='412' style="float: center" src="GPPredictions.png"></p>
+
+</section>
+    </div>
+  </div>
+</body>
+  <script src="./libraries/frameworks/revealjs/lib/js/head.min.js"></script>
+  <script src="./libraries/frameworks/revealjs/js/reveal.min.js"></script>
+  <script>
+  // Full list of configuration options available here:
+  // https://github.com/hakimel/reveal.js#configuration
+  Reveal.initialize({
+    controls: true,
+    progress: true,
+    history: true,
+    center: true,
+    theme: Reveal.getQueryHash().theme || 'black', 
+    transition: Reveal.getQueryHash().transition || 'none', 
+    dependencies: [
+    // Cross-browser shim that fully implements classList -
+    // https://github.com/eligrey/classList.js/
+      { src: './libraries/frameworks/revealjs/lib/js/classList.js', condition: function() { return !document.body.classList;}},
+      // Zoom in and out with Alt+click
+      { src: './libraries/frameworks/revealjs/plugin/zoom-js/zoom.js', async: true, condition: function() { return !!document.body.classList; } },
+      // Speaker notes
+      { src: './libraries/frameworks/revealjs/plugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } },
+      // Remote control your reveal.js presentation using a touch device
+      //{ src: './libraries/frameworks/revealjs/plugin/remotes/remotes.js', async: true, condition: function() { return !!document.body.classList; } }
+      ]
+  });
+  </script>  <script>  
+$(function (){ 
+  $("#example").popover(); 
+  $("[rel='tooltip']").tooltip(); 
+});  
+</script>  
+
+<!-- MathJax: Fall back to local if CDN offline but local image fonts are not supported (saves >100MB) -->
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    tex2jax: {
+      inlineMath: [['$','$'], ['\\(','\\)']],
+      processEscapes: true
+    }
+  });
+</script>
+<script type="text/javascript" src="http://cdn.mathjax.org/mathjax/2.0-latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+<!-- <script src="https://c328740.ssl.cf1.rackcdn.com/mathjax/2.0-latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+</script> -->
+<script>window.MathJax || document.write('<script type="text/x-mathjax-config">MathJax.Hub.Config({"HTML-CSS":{imageFont:null}});<\/script><script src="./libraries/widgets/mathjax/MathJax.js?config=TeX-AMS-MML_HTMLorMML"><\/script>')
+</script>
+<!-- LOAD HIGHLIGHTER JS FILES -->
+<script src="./libraries/highlighters/highlight.js/highlight.pack.js"></script>
+<script>hljs.initHighlightingOnLoad();</script>
+<!-- DONE LOADING HIGHLIGHTER JS FILES -->
+ 
+
+</html>
