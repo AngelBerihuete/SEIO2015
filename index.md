@@ -385,7 +385,7 @@ El conjunto de entrenamiento se construye utilizando las bibliotecas sintéticas
 ## Estimación paramétrica
 
   * Bibliotecas sintéticas de espectros vistas por GAIA: modelos.
-  * Bibliotecas sintéticas y espectros obtenidos en tierra vistas por GAIA: observaciones.
+  * Espectros obtenidos en tierra (copilaciones Leggett, Keck, NIRSPEC, IRTF) vistos por GAIA: observaciones.
 
 <br>
 
@@ -508,7 +508,7 @@ Fuente <a href="http://www.inference.phy.cam.ac.uk/bayesys/Valencia.pdf">John Sk
 
 Además $p_i = \frac{p(s | \theta_i) \cdot w_i}{\widehat{m(s)}}$,
 
-con $w_i = 0.5 ( X_{i-1} - X_i ) $. ADemás
+con \( w_i = 0.5 ( X_{i-1} - X_i ) \). Además
 
 $$ \widehat{T}_{eff} = \sum_{i = 1}^n T_{eff, i} \cdot p_i $$
 
@@ -556,6 +556,26 @@ Resultados para Nested Sampling  con $\theta \sim \mathcal{U} (400, 4000) \times
 Fuente <a href="http://www.aanda.org/articles/aa/abs/2013/02/aa19867-12/aa19867-12.html">Sarro et al.</a>
 </small></figcaption>
 </figure>
+
+---
+
+## Inferencia Bayesiana
+
+<br>
+<br>
+
+<figure>
+<div style='text-align: center;'>
+<img src="plateauReason.png" />
+</div>
+<figcaption><small>
+Modelos BT-Settl entre 1200 y 2000K. Claramente tienden a concentrar
+entre 1600-1800K.
+<br>
+Fuente <a href="http://www.aanda.org/articles/aa/abs/2013/02/aa19867-12/aa19867-12.html">Sarro et al.</a>
+</small></figcaption>
+</figure>
+
 
 --- &twocol
 
