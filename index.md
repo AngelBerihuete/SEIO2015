@@ -508,7 +508,9 @@ Fuente <a href="http://www.inference.phy.cam.ac.uk/bayesys/Valencia.pdf">John Sk
 
 Además $p_i = \frac{p(s | \theta_i) \cdot w_i}{\widehat{m(s)}}$,
 
-con $w_i = 0.5(X_{i-1}-X_i)$ y $\hat{T}_{eff}= \sum_{i = 1}^n T_{eff, i} \cdot p_i$
+con $w_i = 0.5(X_{i-1}-X_i)$. ADemás
+
+$$\hat{T}_{eff}= \sum_{i = 1}^n T_{eff, i} \cdot p_i$$
 
 --- &twocol
 
