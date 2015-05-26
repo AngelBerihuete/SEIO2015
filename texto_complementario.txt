@@ -41,6 +41,11 @@ embargo, Gaia lo hará con una precisión extraordinaria, más allá
 de los sueños de cualquier astrónomo del pasado.
 
 
+<p class="fragment" data-fragment-index="1" style="text-align: left;">
+Gaia trazará un mapa de las estrellas desde el punto de  Lagrange L2, a una distancia de unos 1.5 millones de kilómetros de la Tierra.
+</p>
+
+
 	<body>
 	    <video>...</video>       
 	    <p>...</p>

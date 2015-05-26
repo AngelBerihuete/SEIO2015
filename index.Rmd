@@ -90,60 +90,41 @@ Fuente ESA. Satelite Hipparcos
 </small></figcaption>
 </figure>
 
----
+--- &twocol
 
 ## La misión espacial GAIA
 
+<figure>
 <div style='text-align: center;'>
-<video data-autoplay controls src="Gaialaunch.mp4" type="video/mp4"></video>
+<video width="512" data-autoplay controls src="Gaialaunch.mp4" type="video/mp4"></video>
 </div>
+</figure>
+
+*** =left
 
 <font color = "red" underline> Reto tecnológico </font>
 
-
 <p class="fragment" data-fragment-index="1" style="text-align: left;">
-Gaia trazará un mapa de las estrellas desde el punto de  Lagrange L2, a una distancia de unos 1.5 millones de kilómetros de la Tierra.
+Transmitirá, durante 5 años, 50 Gb diarios. Al final de la misión el archivo de datos excederá el Petabyte.
 </p>
 
 <p class="fragment" data-fragment-index="2" style="text-align: left;">
 106 CCDs con 8 millones de pixels cada uno.
 </p>
 
-<p class="fragment" data-fragment-index="3" style="text-align: left;">
-Transmitirá, durante 5 años, 50 Gb diarios. Al final de la misión el archivo de datos excederá el Petabyte.
-</p>
-
-
---- &twocol
-
-## La misión espacial GAIA
-
-*** =left
-
-<figure>
-<div style='text-align: center;'>
-<img src='gaiaSatellite.png' />
-</div>
-<figcaption><small>
-Fuente ESA. Satelite GAIA
-</small></figcaption>
-</figure>
 
 *** =right
 
 <font color = "red"> Reto científico </font>
 
-<br>
-
-<p class="fragment" data-fragment-index="1" style="text-align: left;">
+<p class="fragment" data-fragment-index="3" style="text-align: left;">
 Se registrarán un total de 70 mil millones de observaciones, cada una de ellas compuesta a su vez de varios conjuntos de medidas.
 </p>
 
-<br>
-
-<p class="fragment" data-fragment-index="1" style="text-align: left;">
+<p class="fragment" data-fragment-index="4" style="text-align: left;">
 La astrometría será la mejor conseguida hasta ahora.
 </p>
+
 
 --- &twocol
 
