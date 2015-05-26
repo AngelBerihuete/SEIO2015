@@ -1,9 +1,4 @@
 
-#<iframe src="http://www.esa.int/spaceinvideos/content/view/embedjw/424168" width="640" height="360" frameborder="0"></iframe>
-#<iframe width="212" height="119" src="https://www.youtube.com/embed/WtWRVqYcDaU?rel=0" frameborder
-#="0" allowfullscreen></iframe>
-
-
 -------
 190 - 120 ac
 Elaboración del primer catálogo de estrellas que contenía la posición en coordenadas eclípticas de 1080 estrellas. Influyó en Hiparco la aparición de una estrella nova, Nova Scorpii en el año 134 a. C. y el pretender fijar la posición del equinoccio de primavera sobre el fondo de estrellas.
@@ -17,16 +12,7 @@ This permitted the accurate determination of proper motions and parallaxes of st
 
 ------
 
-
-
-
-
-1. Número de investigadores en el proyecto.
-
-2. El DPAC está encargado de
-diseñar, desarrollar ... se compone de *unidades de coordinación* CU
-con trabajos específicos en cada una de ellas.
-
+Gaia trazará un mapa de las estrellas desde el punto de  Lagrange L2, a una distancia de unos 1.5 millones de kilómetros de la Tierra.
 
 aproximadamente el 1% de todas las estrellas de nuestra galaxia. 
 Durante los cinco años de vida del satélite, Gaia observará cada 
@@ -41,37 +27,12 @@ embargo, Gaia lo hará con una precisión extraordinaria, más allá
 de los sueños de cualquier astrónomo del pasado.
 
 
-<p class="fragment" data-fragment-index="1" style="text-align: left;">
-Gaia trazará un mapa de las estrellas desde el punto de  Lagrange L2, a una distancia de unos 1.5 millones de kilómetros de la Tierra.
-</p>
+Número de investigadores en el proyecto.
 
+El DPAC está encargado de
+diseñar, desarrollar ... se compone de *unidades de coordinación* CU
+con trabajos específicos en cada una de ellas.
 
-	<body>
-	    <video>...</video>       
-	    <p>...</p>
-	    <p>...</p>
-	<body>
-					
-
-
-	video {
-	    width: 40%;
-	    float: right;
-	    border: 5px solid black;         
-	}         
-					
-
-					
-
-En agosto de 1989, más de 2.000 años después 
-de Hiparco, la ESA lanzó al espacio Hipparcos 
-(HIgh Precision PARAllax COllecting Satellite), el 
-primer satélite dedicado a la astrometría. De los 
-datos tomados entre 1989 y 1993 se publicó el 
-Catálogo final de Hipparcos en 1997. Contiene 
-las posiciones, distancias y movimientos, 
-200 veces más precisas que cualquier medida 
-anterior, para casi 120.000 estrellas. 
 
 Gaia trazará un mapa de las estrellas desde 
 una posición aventajada a una distancia de 
@@ -110,8 +71,6 @@ científicas serán publicadas con antelación y dos años después del
 lanzamiento se harán públicos catálogos intermedios
 
 
-https://itunes.apple.com/us/app/gaia-mission/id735128015
-
 Pero el reto no está solo en observarlas, sino en extraer conocimiento del 'petabyte' de información, un millón de 'gigabytes', que este satélite con nombre de diosa griega va a suministrar. ¿Cómo se gestiona el 'big data' del Universo? La astroestadística, la aplicación de técnicas y  modelos estadísticos a la astronomía, una disciplina todavía joven, se ha convertido en un eslabón fundamental para estudiar el 'tsunami' de datos de asteroides, estrellas, galaxias y cuásares que conviven en nuestro espacio exterior.
 
 Gaia's camera contains three science instruments: the astrometric instrument, the blue and red photometer, and the radial velocity spectrometer. They are all based on digital detectors – charged coupled devices (CCDs) – that record light from astronomical sources. With a total of 106 CCDs, each consisting of more than eight million pixels, Gaia's camera boasts almost one billion pixels covering an area of 0.38 m2 – the largest focal plane ever flown in space.
@@ -125,11 +84,7 @@ Petabyte: que es 1 millón de Gbytes o el
   de asteroides, estrellas, galaxias y cuásares que conviven en nuestro
   espacio exterior.
 
-
-Es decir, que registrará un total de 70 mil millones de observaciones, cada una de ellas compuesta a su vez de varios conjuntos de medidas.
-
 a astroestadística permitirá crear una 'timeline' completa de su evolución gracias a los datos de Gaia. Un paso de los datos al conocimiento, según Sarro
-
 
 # La misión Gaia de la ESA creará un mapa detallado de este 
 # laberinto y encontrará claves acerca del origen, estructura y 

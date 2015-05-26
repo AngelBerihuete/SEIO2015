@@ -105,13 +105,12 @@ Fuente ESA. Satelite Hipparcos
 <font color = "red" underline> Reto tecnológico </font>
 
 <p class="fragment" data-fragment-index="1" style="text-align: left;">
-Transmitirá, durante 5 años, 50 Gb diarios. Al final de la misión el archivo de datos excederá el Petabyte.
-</p>
-
-<p class="fragment" data-fragment-index="2" style="text-align: left;">
 106 CCDs con 8 millones de pixels cada uno.
 </p>
 
+<p class="fragment" data-fragment-index="2" style="text-align: left;">
+Transmitirá, durante 5 años, 50 Gb diarios. Al final de la misión el archivo de datos excederá el Petabyte.
+</p>
 
 *** =right
 
