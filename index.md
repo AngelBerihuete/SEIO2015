@@ -15,21 +15,42 @@ github      :
   repo      : SEIO2015
   user      : AngelBerihuete
 
+
+
 ---
 
-<a href="http://github.com/AngelBerihuete/SEIO2015"><img style="position: absolute; top: 0; right: 0; border: 0;" src="https://camo.githubusercontent.com/365986a132ccd6a44c23a9169022c0b5c890c387/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f6769746875622f726962626f6e732f666f726b6d655f72696768745f7265645f6161303030302e706e67" alt="Fork me on GitHub" data-canonical-src="https://s3.amazonaws.com/github/ribbons/forkme_right_red_aa0000.png"></a>
-
-## Estimación de parámetros físicos en estrellas de baja masa
+<style>#forkongithub a{background:#c11;color:#fff;text-decoration:none;font-family:arial,sans-serif;text-align:center;font-weight:bold;padding:5px 40px;font-size:1rem;line-height:2rem;position:relative;transition:0.5s;}#forkongithub a:hover{background:#c11;color:#fff;}#forkongithub a::before,#forkongithub a::after{content:"";width:100%;display:block;position:absolute;top:1px;left:0;height:1px;background:#fff;}#forkongithub a::after{bottom:1px;top:auto;}@media screen and (min-width:800px){#forkongithub{position:fixed;display:block;top:0;right:0;width:200px;overflow:hidden;height:200px;z-index:9999;}#forkongithub a{width:200px;position:absolute;top:60px;right:-60px;transform:rotate(45deg);-webkit-transform:rotate(45deg);-ms-transform:rotate(45deg);-moz-transform:rotate(45deg);-o-transform:rotate(45deg);box-shadow:4px 4px 10px rgba(0,0,0,0.8);}}</style><span id="forkongithub"><a href="https://github.com/AngelBerihuete/SEIO2015">Fork me on GitHub</a></span>
 
 <br>
 
-en el marco de la misión espacial GAIA
+<br>
 
 <br>
 
-<small> [A. Berihuete](http://github.com/AngelBerihuete/SEIO2015), L. M. Sarro, A. Suárez, D. Barrado, C. Carrión, M. Sánchez </small>
+## Estimación de parámetros 
+
+## físicos en estrellas de baja masa
+
+<br>
+
+bajo el marco de la misión espacial GAIA
+
+<br>
+
+<small> <a href= "mailto:angel.berihuete@uca.es" >A. Berihuete,</a> L. M. Sarro, A. Suárez, D. Barrado, C. Carrión, M. Sánchez
+<br>
+<br>
+
+Universidad de Cádiz
+<br>
+Universidad Nacional de Educación a Distancia
+<br>
+Centro de Astrobiología
+
+</small>
 
 ---
+
 
 ## Esquema de la presentación
 
@@ -38,43 +59,6 @@ en el marco de la misión espacial GAIA
 3. Estimación parámetrica. Principales  resultados.
 4. Trabajo actual y futuro.
 
----
-
-## La misión espacial GAIA
-
-<font size="6">
-<div class="fragment grow">
-El reto: un censo de mil millones de estrellas
-</div>
-</font>
-
-<br>
-
-<ol>
-    <li><font color = "red"> Reto tecnológico: </font></li>
-    <ul>
-    <li> Gaia trazará un mapa de las estrellas desde el punto de  Lagrange L2, a una distancia de unos 1.5 millones de kilómetros de la Tierra.
-    </li>
-    <li>
-    106 CCDs con 8 millones de pixels cada uno.
-    </li>
-    <li>
-    Transmitirá, durante 5 años, 50 Gb diarios. Al final de la misión, el archivo de datos excederá el Petabyte.
-    </li>
-    </ul>
-    <li><font color = "red"> Reto científico: </font></li>
-    <ul>
-    <li>
-    Se registrarán un total de 70 mil millones de observaciones, cada una de ellas compuesta a su vez de varios conjuntos de medidas.
-    </li>
-    <li>
-    La astrometría será la mejor conseguida hasta ahora.
-    </li>
-    <li>
-    La astroestadística, se ha convertido en eslabón fundamental para el estudio de esta ingente cantidad de datos.
-    </li>
-    </ul>
-</ol>
 
 --- &twocol
 
@@ -82,17 +66,150 @@ El reto: un censo de mil millones de estrellas
 
 *** =left
 
-<img src='DPAC1.png' />
+<figure>
+<div style='text-align: center;'>
+    <img src='Hipparchus_by_Raphael.jpg' />
+</div>
+<figcaption><small>
+Fuente Wikipedia
+<br>
+Hiparco de Nicea
+</small></figcaption>
+</figure>
 
 *** =right
 
-<img src='DPAC2.png' />
+<figure>
+<div style='text-align: center;'>
+    <img src='hipparcos1.jpg' />
+</div>
+<figcaption><small>
+Fuente ESA. Satelite Hipparcos 
+<br>
+(The High Precision Parallax Collecting Satellite)
+</small></figcaption>
+</figure>
 
-*** =fullwidth
+---
+
+## La misión espacial GAIA
+
+<div style='text-align: center;'>
+<video data-autoplay controls src="Gaialaunch.mp4" type="video/mp4"></video>
+</div>
+
+<font color = "red" underline> Reto tecnológico </font>
+
+
+<p class="fragment" data-fragment-index="1" style="text-align: left;">
+Gaia trazará un mapa de las estrellas desde el punto de  Lagrange L2, a una distancia de unos 1.5 millones de kilómetros de la Tierra.
+</p>
+
+<p class="fragment" data-fragment-index="2" style="text-align: left;">
+106 CCDs con 8 millones de pixels cada uno.
+</p>
+
+<p class="fragment" data-fragment-index="3" style="text-align: left;">
+Transmitirá, durante 5 años, 50 Gb diarios. Al final de la misión el archivo de datos excederá el Petabyte.
+</p>
+
+
+--- &twocol
+
+## La misión espacial GAIA
+
+*** =left
+
+<figure>
+<div style='text-align: center;'>
+<img src='gaiaSatellite.png' />
+</div>
+<figcaption><small>
+Fuente ESA. Satelite GAIA
+</small></figcaption>
+</figure>
+
+*** =right
+
+<font color = "red"> Reto científico </font>
+
+<br>
+
+<p class="fragment" data-fragment-index="1" style="text-align: left;">
+Se registrarán un total de 70 mil millones de observaciones, cada una de ellas compuesta a su vez de varios conjuntos de medidas.
+</p>
+
+<br>
+
+<p class="fragment" data-fragment-index="1" style="text-align: left;">
+La astrometría será la mejor conseguida hasta ahora.
+</p>
+
+--- &twocol
+
+## La misión espacial GAIA
+<br>
+
+<font size="12"> El reto:  un censo de 
+<font color = "red"> mil millones de estrellas 
+</font>
+</font>
+
+<br>
+
+*** =left
+
+<figure>
+<div style='text-align: center;'>
+<img src='gaiaSatellite.png' />
+</div>
+<figcaption><small>
+Fuente ESA
+</small></figcaption>
+</figure>
+
+*** =right
+
+<br>
+<br>
+
+<p style="text-align: left;">
+La <font color = "red"> Astroestadística </font> 
+se ha convertido en eslabón fundamental para el análisis y 
+contraste de modelos en las grandes bases de la Astronomía actual.
+</p>
+
+--- &twocol
+
+## La misión espacial GAIA
 
 <br>
 
 Consorcio para el procesado de datos (DPAC)
+
+<br>
+
+*** =left
+
+<figure>
+<div style='text-align: center;'>
+<img src='DPAC1.png' />
+</div>
+<figcaption><small>
+Fuente ESA
+</small></figcaption>
+</figure>
+
+*** =right
+<figure>
+<div style='text-align: center;'>
+<img src='DPAC2.png' />
+</div>
+<figcaption><small>
+Fuente ESA
+</small></figcaption>
+</figure>
+
 
 --- &twocol
 
@@ -114,7 +231,9 @@ CU8 está encargada de la determinación de parámetros astrofísicos. Dichos pa
 
 --- &twocol
 
-## El módulo UCD: estrellas enanas ultra frías
+## El módulo UCD
+
+### estrellas enanas ultra frías
 
 <br>
 
@@ -125,28 +244,36 @@ CU8 está encargada de la determinación de parámetros astrofísicos. Dichos pa
     <img src='BrownDwarfs.png' />
 </div>
 <figcaption><small>
-Wikipedia
+Fuente Wikipedia
 </small></figcaption>
 </figure>
 
 ***=right
 
-.fragment <font color="red">Contexto:</font>  GAIA contendrá un vasto número de objetos, incluyendoestrellas enanas ultrafrías (temperatura por debajo de 2500 K)
+<p class="fragment" data-fragment-index="3" style="text-align: left;">
+<font color="red">Contexto:</font>  GAIA contendrá un vasto número de objetos, incluyendo estrellas enanas ultrafrías (temperatura por debajo de 2500 K)
+</p>
 
-.fragment <font color="red">Objetivo:</font> Abordar la precisión de las estimaciones de la temperatura y gravedad obtenidas a partir de modelos y observaciones actuales.
+<p class="fragment" data-fragment-index="3" style="text-align: left;">
+<font color="red">Objetivo:</font> Abordar la precisión de las estimaciones de la temperatura y gravedad obtenidas a partir de modelos y observaciones actuales.
+</p>
 
 --- &twocol
 
-## El módulo UCD: estrellas enanas ultra frías
+## El módulo UCD
+
+### estrellas enanas ultra frías
+
+<br>
 
 ***=left
 
 <figure>
 <div style='text-align: center;'>
-    <img height='320' src='BrownDwarfs.png' />
+    <img src='BrownDwarfs.png' />
 </div>
 <figcaption><small>
-Wikipedia
+Fuente Wikipedia
 </small></figcaption>
 </figure>
 
@@ -156,23 +283,29 @@ Wikipedia
 
 <figure>
 <div style='text-align: center;'>
-    <img height='320' src='EvolutionaryTracks.png' />
+    <img src='EvolutionaryTracks.png' />
 </div>
 <figcaption><small>
-Tracks evolutivos. DOI: 10.1051/0004-6361/201219867
+Tracks evolutivos
+<br>
+Fuente <a href="http://www.aanda.org/articles/aa/abs/2013/02/aa19867-12/aa19867-12.html">Sarro et al.</a>
 </small></figcaption>
 </figure>
 
 ---
 
-## Datos para el módulo UCD, ¿qué vemos realmente?
+## Datos para el módulo UCD
+
+### ¿qué vemos realmente?
 
 <figure>
 <div style='text-align: center;'>
 <img src='NormalisedSampleSpectra.png' />
 </div>
 <figcaption><small>
-Espectros normalizados a partir de la biblioteca de modelos BT-Settl.
+Espectros normalizados a partir de la biblioteca de modelos BT-Settl
+<br>
+Fuente <a href="http://www.aanda.org/articles/aa/abs/2013/02/aa19867-12/aa19867-12.html">Sarro et al.</a>
 </small></figcaption>
 </figure>
 
@@ -184,14 +317,18 @@ parámetros.
 
 ---
 
-## Datos para el módulo UCD, ¿qué vemos realmente?
+## Datos para el módulo UCD
+
+### ¿qué vemos realmente?
 
 <figure>
 <div style='text-align: center;'>
 <img src='NormalisedSampleSpectra.png' />
 </div>
 <figcaption><small>
-Espectros normalizados a partir de la biblioteca de modelos BT-Settl.
+Espectros normalizados a partir de la biblioteca de modelos BT-Settl
+<br>
+Fuente <a href="http://www.aanda.org/articles/aa/abs/2013/02/aa19867-12/aa19867-12.html">Sarro et al.</a>
 </small></figcaption>
 </figure>
 
@@ -203,33 +340,38 @@ Estas bibliotecas parametrizan los modelos con magnitudes físicas (temperatura 
 
 ---
 
-## Datos para el módulo UCD, ¿qué vemos realmente?
+## Datos para el módulo UCD
+
+### ¿qué vemos realmente?
 
 <figure>
 <div style='text-align: center;'>
 <img src='NormalisedSampleSpectra.png' />
 </div>
 <figcaption><small>
-Espectros normalizados a partir de la biblioteca de modelos BT-Settl.
-</small></figcaption>
-</figure>
-
+Espectros normalizados a partir de la biblioteca de modelos BT-Settl
 <br>
+Fuente <a href="http://www.aanda.org/articles/aa/abs/2013/02/aa19867-12/aa19867-12.html">Sarro et al.</a></small></figcaption>
+</figure>
 
 Los tipos espectrales pueden inferirse sin el uso de modelos sintéticos, pero el camino de espectro a los parámetros físicos necesitan de éstas para su correcta interpretación.
 
-.fragment Dado el espectro de baja resolución de GAIA, la mayoría de las características utilizadas para decidir el tipo espectral permanecen no resueltas o innobservadas. Hay que tener cuidado con las interpretaciones.
+.fragment Dado el espectro de baja resolución de GAIA, la mayoría de las características utilizadas para decidir el tipo espectral permanecen no resueltas o innobservadas, i.e., cuidado con las interpretaciones.
 
 ---
 
-## Datos para el módulo UCD, ¿qué vemos realmente?
+## Datos para el módulo UCD
+
+### ¿qué vemos realmente?
 
 <figure>
 <div style='text-align: center;'>
 <img src='NormalisedSampleSpectra.png' />
 </div>
 <figcaption><small>
-Espectros normalizados a partir de la biblioteca de modelos BT-Settl.
+Espectros normalizados a partir de la biblioteca de modelos BT-Settl
+<br>
+Fuente <a href="http://www.aanda.org/articles/aa/abs/2013/02/aa19867-12/aa19867-12.html">Sarro et al.</a>
 </small></figcaption>
 </figure>
 
@@ -239,14 +381,18 @@ Los modelos sintéticos definen la relación entre los espcetros observados por 
 
 ---
 
-## Datos para el módulo UCD, ¿qué vemos realmente?
+## Datos para el módulo UCD
+
+### ¿qué vemos realmente?
 
 <figure>
 <div style='text-align: center;'>
 <img src='NormalisedSampleSpectra.png' />
 </div>
 <figcaption><small>
-Espectros normalizados a partir de la biblioteca de modelos BT-Settl.
+Espectros normalizados a partir de la biblioteca de modelos BT-Settl
+<br>
+Fuente <a href="http://www.aanda.org/articles/aa/abs/2013/02/aa19867-12/aa19867-12.html">Sarro et al.</a>
 </small></figcaption>
 </figure>
 
@@ -269,6 +415,8 @@ El conjunto de entrenamiento se construye utilizando las bibliotecas sintéticas
 </div>
 <figcaption><small>
 Comparación de espectros vistos por GAIA
+<br>
+Fuente <a href="http://www.aanda.org/articles/aa/abs/2013/02/aa19867-12/aa19867-12.html">Sarro et al.</a>
 </small></figcaption>
 </figure>
 
@@ -282,6 +430,59 @@ y gravedad obtenidas a partir de modelos y observaciones actuales.
 <br> 
 
 <img src="assets/fig/unnamed-chunk-1-1.png" title="plot of chunk unnamed-chunk-1" alt="plot of chunk unnamed-chunk-1" style="display: block; margin: auto;" />
+
+
+---
+
+## Estimación paramétrica
+
+### KNN
+
+<figure>
+<div style='text-align: center;'>
+<img height='412' style="float: center" src="knnPredictions.png">
+</div>
+<figcaption><small>
+Resultados utilizando KNN
+<br>
+Fuente <a href="http://www.aanda.org/articles/aa/abs/2013/02/aa19867-12/aa19867-12.html">Sarro et al.</a>
+</small></figcaption>
+</figure>
+
+---
+
+## Estimación paramétrica
+
+### Procesos Gausianos
+
+<figure>
+<div style='text-align: center;'>
+<img height='412' style="float: center" src="GPPredictions.png">
+</div>
+<figcaption><small>
+Resultados utilizando PG
+<br>
+Fuente <a href="http://www.aanda.org/articles/aa/abs/2013/02/aa19867-12/aa19867-12.html">Sarro et al.</a>
+
+</small></figcaption>
+</figure>
+
+---
+
+## Estimación paramétrica
+
+### Bayes
+
+<figure>
+<div style='text-align: center;'>
+<img height='412' src="BayesPredictions.png" />
+</div>
+<figcaption><small>
+Resultados para Nested Sampling con $\theta \sim \mathcal{U} (400, 4000) \times (3.5, 5.5)$
+<br>
+Fuente <a href="http://www.aanda.org/articles/aa/abs/2013/02/aa19867-12/aa19867-12.html">Sarro et al.</a>
+</small></figcaption>
+</figure>
 
 ---
 
@@ -316,15 +517,16 @@ Para caracterizar a $p(\theta|s)$ utilizamos el algoritmo
 <div style='text-align: center;'>
 <img src='nestedSampling.png' />
 </div>
-<figcaption></figcaption>
-</figure>
+<figcaption>
 <small>
-Imagen propiedad de [John Skilling](http://www.inference.phy.cam.ac.uk/bayesys/Valencia.pdf)
+Fuente <a href="http://www.inference.phy.cam.ac.uk/bayesys/Valencia.pdf">John Skilling (Proc. Valencia / ISBA)</a>
 </small>
+</figcaption>
+</figure>
 
 *** =right
 
-Además $p_i = \frac{p(s | \theta_i) \cdot w_i}{\hat{m(s)}}$,
+Además $p_i = \frac{p(s | \theta_i) \cdot w_i}{\widehat{m(s)}}$,
 
 con $w_i = 0.5(X_{i-1}-X_i)$ y
 $\hat{T}_{eff}= \sum_{i = 1}^n T_{eff, i} \cdot p_i$
@@ -341,6 +543,8 @@ $\hat{T}_{eff}= \sum_{i = 1}^n T_{eff, i} \cdot p_i$
 </div>
 <figcaption><small>
 $\log p(s| \theta)$ para modelo BT-Settl 1500K
+<br>
+Fuente <a href="http://www.aanda.org/articles/aa/abs/2013/02/aa19867-12/aa19867-12.html">Sarro et al.</a>
 </small></figcaption>
 </figure>
 
@@ -352,6 +556,8 @@ $\log p(s| \theta)$ para modelo BT-Settl 1500K
 </div>
 <figcaption><small>
 $\log p(s| \theta)$ para spectro con ruido SDSS0107 (G=20)
+<br>
+Fuente <a href="http://www.aanda.org/articles/aa/abs/2013/02/aa19867-12/aa19867-12.html">Sarro et al.</a>
 </small></figcaption>
 </figure>
 
@@ -365,6 +571,8 @@ $\log p(s| \theta)$ para spectro con ruido SDSS0107 (G=20)
 </div>
 <figcaption><small>
 Resultados para Nested Sampling  con $\theta \sim \mathcal{U} (400, 4000) \times (3.5, 5.5)$
+<br>
+Fuente <a href="http://www.aanda.org/articles/aa/abs/2013/02/aa19867-12/aa19867-12.html">Sarro et al.</a>
 </small></figcaption>
 </figure>
 
@@ -373,7 +581,7 @@ Resultados para Nested Sampling  con $\theta \sim \mathcal{U} (400, 4000) \times
 ## Distribución previa mediante cópula
 
 Ampliar las distribuciones previas a copulas, simulando la relación
-entre la temperatura y gravedad. Primera aproximación en TFG de Marta Sánchez, obteniendo mejores resultado (menor error de estimación).
+entre la temperatura y gravedad. Primera aproximación en TFG de Marta Sánchez, obteniendo mejores resultados (menor error de estimación).
 
 *** =left
 
@@ -383,6 +591,9 @@ entre la temperatura y gravedad. Primera aproximación en TFG de Marta Sánchez,
 </div>
 <figcaption><small>
 log posterior con previa uniforme
+<br>
+Fuente TFG Marta Sánchez
+
 </small></figcaption>
 </figure>
 
@@ -393,15 +604,21 @@ log posterior con previa uniforme
 <img src="valor_prop_logpost_copula.png" />
 </div>
 <figcaption><small>
-log posterior con previa copula
+log posterior con previa cópula
+<br>
+Fuente TFG Marta Sánchez
 </small></figcaption>
 </figure>
 
 --- 
 
-## Distribución previa mediante cópula
+## Distribución posterior 
 
-Distribución posterior de $T_{eff}$ y $\log (g)$ 
+### temperatura y gravedad
+
+<small>
+Fuente TFG Marta Sánchez
+</small>
 
 <div style='text-align: center;'>
     <img height='220' width= '220' src='marginal_teff_uniforme.png' />
@@ -417,14 +634,16 @@ Distribución posterior de $T_{eff}$ y $\log (g)$
 
 ## Trabajo en curso
 
-<br>
-
-<ol>
-
+<ul>
 <li> Jerarquizar el modelo. </li>
-<li> Paralelizar la verosimilitud: programación en Python y/o R, primeras prebas con arquitectura Spark. ¿Es la arquitectura correcta? Profiling. </li>
+<li> Paralelización del algoritmo, High Perfomance Computing para emcee, y/o HMC (programación en Python y R)</li>
+<li>Paralelización de la verosimilitud
 
-</ol>
+$$ \log p(s | \theta) = \sum_{i=1}^n \log  p(s_i | \theta), \quad n>> $$
+
+Hemos utilizado colas Condor, Slrum, y estamos con las primeras pruebas en arquitectura Spark. ¿Es la arquitectura correcta?
+</li>
+</ul>
 
 ---
 
@@ -432,35 +651,4 @@ Distribución posterior de $T_{eff}$ y $\log (g)$
 
 ¡No olviden descargarse al app!
 
-<img height='412' style="float: center" src="GaiaMissionAPP.png">
-
----
-## Extra. Resultados utilizando KNN
-
-Obtiene los parámetros como la media ponderada de los elementos
-en el cojunto de entrenamiento que están más cercas del espectro 
-de entrada para una métrica dada. Dicha métrica es la distancia
-euclídea y los pesos son la inversa de dicha distancia.
-
-> Desventaja, todo el cojunto de datos debe se accesible en todo 
-momento. Y la técnica está afectada de la maldición de la dimensionalidad,
-es decir, cuando crezca el espacio parámetrico el número de observaciones
-debe aumentar exponencialmente para mantener una densidad adecuadad de 
-vecinos próximos.
-
-<img height='412' style="float: center" src="knnPredictions.png">
-
----
-
-## Extra. Resultados utilizando procesos gausianos
-
-Se define como una distribución de probabilida sobre las funciones
-de forma que la probabilidad conjunta de las variables aleatorias
-definidas por sus evaluaciones en cierto conjunto de vectores (
-el training set) es Gaussiano.
-
-<img height='412' style="float: center" src="GPPredictions.png">
-
-```
-<video data-autoplay src="http://clips.vorwaerts-gmbh.de/big_buck_bunny.mp4"></video>
-```
+<img height='480' style="float: center" src="GaiaMissionAPP.png">

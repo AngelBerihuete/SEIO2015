@@ -4,6 +4,22 @@
 #="0" allowfullscreen></iframe>
 
 
+-------
+190 - 120 ac
+Elaboración del primer catálogo de estrellas que contenía la posición en coordenadas eclípticas de 1080 estrellas. Influyó en Hiparco la aparición de una estrella nova, Nova Scorpii en el año 134 a. C. y el pretender fijar la posición del equinoccio de primavera sobre el fondo de estrellas.
+
+Con el propósito de elaborar dicho catálogo, Hiparco inventó instrumentos, especialmente un teodolito, para indicar posiciones y magnitudes, de forma que fuese fácil descubrir sí las estrellas morían o nacían, si se movían o si aumentaban o disminuían de brillo. Además clasificó las estrellas según su intensidad, clasificándolas en magnitudes, según su grado de brillo.
+
+--------
+Lanzado en 1989 y operativo hasta 1993
+
+This permitted the accurate determination of proper motions and parallaxes of stars, allowing a determination of their distance and tangential velocity. When combined with radial-velocity measurements from spectroscopy, this pinpointed all six quantities needed to determine the motion of stars. The resulting Hipparcos Catalogue, a high-precision catalogue of more than 118,200 stars, was published in 1997. The lower-precision Tycho Catalogue of more than a million stars was published at the same time, while the enhanced Tycho-2 Catalogue of 2.5 million stars was published in 2000. Hipparcos‍ '​ follow-up mission, Gaia, was launched in 2013
+
+------
+
+
+
+
 
 1. Número de investigadores en el proyecto.
 
@@ -24,6 +40,23 @@ astrónomos han dedicado mucho de su tiempo a este arte. Sin
 embargo, Gaia lo hará con una precisión extraordinaria, más allá 
 de los sueños de cualquier astrónomo del pasado.
 
+
+	<body>
+	    <video>...</video>       
+	    <p>...</p>
+	    <p>...</p>
+	<body>
+					
+
+
+	video {
+	    width: 40%;
+	    float: right;
+	    border: 5px solid black;         
+	}         
+					
+
+					
 
 En agosto de 1989, más de 2.000 años después 
 de Hiparco, la ESA lanzó al espacio Hipparcos 
@@ -107,3 +140,33 @@ a astroestadística permitirá crear una 'timeline' completa de su evolución gr
   * consistencia
   * homogeneidad
   * uniformidad
+
+
+----
+
+  KNN
+
+Obtiene los parámetros como la media ponderada de los elementos
+en el cojunto de entrenamiento que están más cercas del espectro 
+de entrada para una métrica dada. Dicha métrica es la distancia
+euclídea y los pesos son la inversa de dicha distancia.
+
+Desventaja, todo el cojunto de datos debe se accesible en todo 
+momento. Y la técnica está afectada de la maldición de la dimensionalidad,
+es decir, cuando crezca el espacio parámetrico el número de observaciones
+debe aumentar exponencialmente para mantener una densidad adecuadad de 
+vecinos próximos.
+
+
+--- 
+
+Gaussian Process
+
+Se define como una distribución de probabilidad  sobre las funciones
+de forma que la probabilidad conjunta de
+
+las variables aleatorias
+definidas por sus evaluaciones en cierto conjunto de vectores (
+el training set) es Gaussiano.
+
+which kind of languege use to do the simulations, and platform 
