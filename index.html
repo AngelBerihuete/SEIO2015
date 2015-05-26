@@ -510,8 +510,7 @@ Fuente <a href="http://www.inference.phy.cam.ac.uk/bayesys/Valencia.pdf">John Sk
 <div style='float:right;width:48%;'>
   <p>Además $p_i = \frac{p(s | \theta_i) \cdot w_i}{\widehat{m(s)}}$,</p>
 
-<p>con $w<em>i = 0.5(X</em>{i-1}-X<em>i)$ y
-$\hat{T}</em>{eff}= \sum<em>{i = 1}<sup>n</sup> T</em>{eff, i} \cdot p_i$</p>
+<p>con $w<em>i = 0.5(X</em>{i-1}-X<em>i)$ y $\hat{T}</em>{eff}= \sum<em>{i = 1}<sup>n</sup> T</em>{eff, i} \cdot p_i$</p>
 
 </div>
 <div>
@@ -568,6 +567,42 @@ Fuente <a href="http://www.aanda.org/articles/aa/abs/2013/02/aa19867-12/aa19867-
 <section class='' data-state='' id='slide-24'>
   <h2>Distribución previa mediante cópula</h2>
   <p>Ampliar las distribuciones previas a copulas, simulando la relación
+entre la temperatura y gravedad. Primera aproximación en TFG de Marta Sánchez, obteniendo mejores resultados (densidades unimodales).</p>
+
+<div style='float:left;width:48%;' class='centered'>
+  <figure>
+<div style='text-align: center;'>
+<img src="fdDtefflogg.png" />
+</div>
+<figcaption><small>
+Relación temperatura gravedad
+<br>
+Fuente TFG Marta Sánchez
+
+</small></figcaption>
+</figure>
+
+</div>
+<div style='float:right;width:48%;'>
+  <figure>
+<div style='text-align: center;'>
+<img src="CopulafdDtefflogg.png" />
+</div>
+<figcaption><small>
+mixtura de distribuciones uniformes y cópula normal
+<br>
+Fuente TFG Marta Sánchez
+</small></figcaption>
+</figure>
+
+</div>
+<div>
+  
+</div>
+</section>
+<section class='' data-state='' id='slide-25'>
+  <h2>Distribución previa mediante cópula</h2>
+  <p>Ampliar las distribuciones previas a copulas, simulando la relación
 entre la temperatura y gravedad. Primera aproximación en TFG de Marta Sánchez, obteniendo mejores resultados (menor error de estimación).</p>
 
 <div style='float:left;width:48%;' class='centered'>
@@ -576,7 +611,7 @@ entre la temperatura y gravedad. Primera aproximación en TFG de Marta Sánchez,
 <img src="valor_prop_logpost_unif.png" />
 </div>
 <figcaption><small>
-log posterior con previa uniforme
+Relación temperatura gravedad
 <br>
 Fuente TFG Marta Sánchez
 
@@ -601,7 +636,7 @@ Fuente TFG Marta Sánchez
   
 </div>
 </section>
-<section class='' data-state='' id='slide-25'>
+<section class='' data-state='' id='slide-26'>
   <h2>Distribución posterior</h2>
   <h3>temperatura y gravedad</h3>
 
@@ -620,7 +655,7 @@ Fuente TFG Marta Sánchez
 </div>
 
 </section>
-<section class='' data-state='' id='slide-26'>
+<section class='' data-state='' id='slide-27'>
   <h2>Trabajo en curso</h2>
   <ul>
 <li> Jerarquizar el modelo. </li>
@@ -634,7 +669,7 @@ Hemos utilizado colas Condor, Slrum, y estamos con las primeras pruebas en arqui
 </ul>
 
 </section>
-<section class='' data-state='' id='slide-27'>
+<section class='' data-state='' id='slide-28'>
   <h2>Gracias</h2>
   <p>¡No olviden descargarse al app!</p>
 
